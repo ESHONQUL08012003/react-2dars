@@ -1,12 +1,11 @@
 import logo from "../../assets/svg/logo.svg";
-import './style.scss'
+import "./style.scss";
 function index() {
   return (
     <>
       <footer className="footer">
         <div className="container">
           <div className="footer__info">
-
             <div>
               <div className="d-flex align-items-center mb-4">
                 <img style={{ cursor: "pointer" }} src={logo} alt={"logo"} />
@@ -53,6 +52,13 @@ function index() {
                 </ul>
               </li>
             </ul>
+          </div>
+        </div>
+        <div className="footer__bottom">
+          <div className="container">
+            <p className="text-white m-0 text-center">
+              Pojok Baca Probolinggo 2022
+            </p>
           </div>
         </div>
       </footer>

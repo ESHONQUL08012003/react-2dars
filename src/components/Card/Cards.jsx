@@ -1,15 +1,26 @@
-import './style.scss'
-function Cards() {
+import "./style.scss";
+function Cards(props) {
+  const {
+    data: { avatar, first_name, email, id, last_name },
+  } = props;
+
+  console.log(props);
+
   return (
     <>
       <div className="cards">
         <div className="cards-body">
-          <img src={"https://picsum.photos/id/237/300/300"} alt={"card-img"}  />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            alias iste cumque quaerat obcaecati minus doloribus! Nemo
-            perferendis ipsam aliquid.
+            “Aku rela dipenjara asalkan bersama buku, karena dengan buku aku
+            bebas”
           </p>
+          <div className="d-flex align-items-center gap-4">
+            <img className="card-img" src={avatar} alt={"card-img"} />
+            <div>
+              <h3 className="m-0 mb-2 text-dark">{first_name}</h3>
+              <p className="m-0 ">{email}</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
