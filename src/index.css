@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-btn {
+  border: none;
+  background: #008f76;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 24px;
+}
+
+.hero-btn:hover{
+  background-color: #3f8478;
+}
+
+.herobtn1{
+  border-radius: 20px;
+}

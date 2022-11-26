@@ -1,0 +1,21 @@
+.footer{
+
+&__info{
+  display: flex;
+  justify-content: space-between;
+
+
+  &-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+
+    li{
+      margin-bottom: 10px;
+    }
+  }
+}
+}
